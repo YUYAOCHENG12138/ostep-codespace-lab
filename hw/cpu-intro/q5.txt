@@ -1,0 +1,32 @@
+Time        PID: 0        PID: 1           CPU           IOs
+  1         RUN:io         READY             1          
+  2        BLOCKED         READY                           1
+  3        BLOCKED         READY                           1
+  4        BLOCKED         READY                           1
+  5        BLOCKED         READY                           1
+  6        BLOCKED         READY                           1
+  7*   RUN:io_done         READY             1          
+  8         RUN:io         READY             1          
+  9        BLOCKED         READY                           1
+ 10        BLOCKED         READY                           1
+ 11        BLOCKED         READY                           1
+ 12        BLOCKED         READY                           1
+ 13        BLOCKED         READY                           1
+ 14*   RUN:io_done         READY             1          
+ 15         RUN:io         READY             1          
+ 16        BLOCKED         READY                           1
+ 17        BLOCKED         READY                           1
+ 18        BLOCKED         READY                           1
+ 19        BLOCKED         READY                           1
+ 20        BLOCKED         READY                           1
+ 21*   RUN:io_done         READY             1          
+ 22           DONE       RUN:cpu             1          
+ 23           DONE       RUN:cpu             1          
+ 24           DONE       RUN:cpu             1          
+ 25           DONE       RUN:cpu             1          
+ 26           DONE       RUN:cpu             1          
+
+Stats: Total Time 26
+Stats: CPU Busy 11 (42.31%)
+Stats: IO Busy  15 (57.69%)
+
